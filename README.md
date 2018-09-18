@@ -1,5 +1,5 @@
 
-##Scrapy 爬取京东商城华为全系列手机评论:
+##Scrapy 爬取京东商城华为全系列手机评论/可视化分析:
 
 
     大致分析了下京东评论 相同手机型号的产品用的评论都是一样的,所以每个型号的爬一个就可以了; 
@@ -12,9 +12,9 @@
 
 
 #### 我是根据这里,每个型号的找一个主页,爬取评论
-![python](./img/1.png)
+![python](https://github.com/srp527/JD_Parse/blob/master/jd_parse/img/1.png)
 #### 对应的html代码,用beautisoup分析网页,得到手机型号和herf
-![python](H:\Projects\JD_Parser\jd_parse\img/2.png)
+![python](https://github.com/srp527/JD_Parse/blob/master/jd_parse/img/2.png)
 
 #### 代码实现
     response = requests.get(start_urls[0])
@@ -69,5 +69,9 @@
                 yield item
 
 #### 爬到的数据
-![python](img/3.png)
+![python](https://github.com/srp527/JD_Parse/blob/master/jd_parse/img/2.png)
 
+#### 代码还有不完善的地方,京东不同产品评论数据返回的格式有差异,有很多评论没有抓到
+
+
+## 未完待续...
