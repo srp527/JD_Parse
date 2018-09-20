@@ -75,7 +75,7 @@
                 yield item
 
 #### 爬到的数据
-![python](https://github.com/srp527/JD_Parse/blob/master/jd_parse/img/2.png)
+![python](https://github.com/srp527/JD_Parse/blob/master/jd_parse/img/3.png)
 
 #### 代码还有不完善的地方,京东不同产品评论数据返回的格式有差异,有很多评论没有抓到
 
